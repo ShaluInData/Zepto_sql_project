@@ -12,13 +12,13 @@ This project is perfect for:
 Project Overview
 The goal is to simulate how actual data analysts in the e-commerce or retail industries work behind the scenes to use SQL to:
 
-✅ Set up a messy, real-world e-commerce inventory database
+-- Set up a messy, real-world e-commerce inventory database
 
-✅ Perform Exploratory Data Analysis (EDA) to explore product categories, availability, and pricing inconsistencies
+-- Perform Exploratory Data Analysis (EDA) to explore product categories, availability, and pricing inconsistencies
 
-✅ Implement Data Cleaning to handle null values, remove invalid entries, and convert pricing from paise to rupees
+-- Implement Data Cleaning to handle null values, remove invalid entries, and convert pricing from paise to rupees
 
-✅ Write business-driven SQL queries to derive insights around pricing, inventory, stock availability, revenue and more.
+-- Write business-driven SQL queries to derive insights around pricing, inventory, stock availability, revenue and more.
 
 
 --**Dataset Overview**
@@ -36,22 +36,22 @@ category: Product category like Fruits, Snacks, Beverages, etc.
 
 mrp: Maximum Retail Price (originally in paise, converted to ₹)
 
-discountPercent: Discount applied on MRP
+disscount_percent: Discount applied on MRP
 
-discountedSellingPrice: Final price after discount (also converted to ₹)
+discounted_selling_price: Final price after discount (also converted to ₹)
 
-availableQuantity: Units available in inventory
+available_quantity: Units available in inventory
 
-weightInGms: Product weight in grams
+weight_in_gms: Product weight in grams
 
-outOfStock: Boolean flag indicating stock availability
+out_Of_Stock: Boolean flag indicating stock availability
 
 quantity: Number of units per package (mixed with grams for loose produce)
 
 * Project Workflow
 Here’s a step-by-step breakdown of what we do in this project:
 
-1. Database & Table Creation
+ **Database & Table Creation**
 We start by creating a SQL table with appropriate data types:
 
 CREATE TABLE zepto (
